@@ -11,6 +11,47 @@
   </head>
 
   <body>
+  <header style="background-color:#EC715F">
+    <div class="container-fuild">
+      <nav class="navbar navbar-expand-sm navbar-light p-0 mx-4">
+        <a class="navbar-brand m-0 p-0" href="#mv"><%= image_tag 'logo', size: "156x70" %></a>
+        <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li>
+              <div class="col">
+                <a class="text-white" href="#portfolio">Portfolio</a>
+              </div>
+            </li>
+            <li>
+              <div class="col">
+                <a class="text-white" href="#feature">Feature</a>
+              </div>
+            </li>
+            <li>
+              <div class="col">
+                <a class="text-white" href="#profile">Profile</a>
+              </div>
+            </li>
+            <li>
+              <div class="col">
+                <a class="text-white" href="#contact">Contact</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
     <%= yield %>
-  </body>
+  </main>
+
+  <footer>
+
+  </footer>
+  </main>
 </html>
