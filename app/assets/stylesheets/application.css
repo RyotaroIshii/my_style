@@ -5,3 +5,16 @@
     background-image: URL(mv);
     background-size: cover;
 }
+
+.portfolio-title{
+    padding-top: 90px;
+}
+
+.portfolio-title::after{
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
