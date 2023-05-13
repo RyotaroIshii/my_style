@@ -6,12 +6,18 @@
     background-size: cover;
 }
 
+.mv-title{
+	padding-top: 300px;
+	font-size: 80px;
+}
+
 #portfolio{
     background-color: #ECEFF1;
 }
 
 .portfolio-title{
     padding-top: 90px;
+    font-size:40px;
 }
 
 .portfolio-title::after{
@@ -61,4 +67,18 @@
 
 .image-6{
 	background-image: URL(webcamp-mother);
+}
+
+.feature-title{
+    padding-top: 90px;
+    font-size:40px;
+}
+
+.feature-title::after{
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
 }
